@@ -1,0 +1,222 @@
+.project_search {
+  padding-top: 4rem;
+}
+.project_search .flexRow {
+  display: flex;
+}
+/* makes main div 2column */
+.searchResults {
+  display: flex;
+}
+/* Selector(dropdown) */
+.project_search .box-search .dropWrapper {
+  margin: 0 0.5rem 1rem 0;
+}
+.project_search .box-search .SRCH-wrapper input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+}
+.project_search .searchResults .results-data {
+  border-top: 1px solid gray;
+  padding-top: 1rem;
+}
+.project_search .searchResults .results-data li .para span {
+  margin: 0 0.5rem;
+}
+.project_search .searchResults .results-data li {
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.project_search .box-search select {
+  text-transform: none;
+  border-radius: 0;
+  border: 1px solid gray;
+  padding: 0.3rem 0.5rem;
+}
+.project_search .box-search {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* filter check boxes */
+.results-wrapper {
+  width: 80%;
+  margin-left: 1rem;
+}
+.form-wrapper .label-wrapper label {
+  display: flex;
+  align-items: baseline;
+}
+.form-wrapper .label-wrapper span {
+  margin-left: 0.5rem;
+  font-size: 0.7rem;
+}
+
+/* results section */
+
+/* right column numbers */
+.results-data .numBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--Blue-desatOP);
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.results-data .numBox .a-sec {
+  width: 80%;
+  font-size: 0.8rem;
+}
+.results-data .numBox .b-sec {
+  font-size: 1.2rem;
+  width: 20px;
+}
+
+.results-data .acordpan .inside-wrapper {
+  margin-bottom: 0.5rem;
+}
+.results-data .acordpan .inside-wrapper .box {
+  background: var(--BGColor);
+  padding: 0.5rem;
+}
+.results-data .acordpan .inside-wrapper p {
+  margin-bottom: 0.5rem;
+}
+.results-data .acordpan .col-bar p span strong {
+  padding-right: 0.5rem;
+}
+.results-data .acordpan .col-bar {
+  background: var(--SecB);
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+.column-wrapper p strong:first-child {
+  padding-left: 0;
+}
+.results-data .acordpan .col-bar p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.results-data .main-column .column-wrapper p strong {
+  padding: 0 0.5rem;
+}
+.results-data .main-column .column-wrapper p strong:first-child {
+  padding-left: 0;
+}
+.results-data .main-column {
+  display: flex;
+  padding: 0.5rem 0 1rem 0;
+}
+.results-data .main-column .column-wrapper {
+  width: 50%;
+}
+.results-data .main-column .column-wrapper:last-child {
+  padding-left: 1rem;
+}
+
+.results-data .main-column .column-wrapper:first-child {
+  border-right: 1px solid grey;
+  padding-right: 1rem;
+}
+
+/* search button */
+.searchResults .submit-btn {
+  max-width: 100px;
+}
+.searchResults select,
+.searchResults select option {
+  text-transform: capitalize;
+}
+.results-data .btn.genbtn {
+  padding: 0.07rem 2rem;
+}
+/* HTML 5 accordian genaric styling */
+details {
+  margin: 1px;
+}
+
+summary {
+  transition: 0.4s;
+  margin-top: 0.5rem;
+  background-color: var(--BGColor);
+  padding: 0.5rem;
+  cursor: pointer;
+  color: var(--Black);
+  text-align: left;
+}
+
+summary:hover {
+  background-color: #ddd;
+}
+
+details.accordion-item[open] summary.accordion-item-header {
+  border-bottom: none;
+}
+
+/* details[open] div {
+  padding-top: 10px;
+} */
+
+.accordion-wrapper {
+  width: 309px;
+  padding-top: 0.5rem;
+  padding-bottom: 0;
+}
+
+.accordion-item-content {
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+/* Style the accordion item icon */
+
+.results-data .btnWrap {
+  display: flex;
+  justify-content: right;
+}
+
+/* Results area */
+.results-data .showbtn:hover {
+  background-color: transparent;
+  color: var(--SecC);
+}
+.results-data .showbtn {
+  width: 150px;
+  float: right;
+  position: relative;
+  top: -2.5rem;
+  background-color: transparent;
+  text-align: right;
+}
+.results-data .acordpan {
+  position: relative;
+  border-top: 1px solid var(--SecD);
+  margin-top: 0.5rem;
+  top: 0.5rem;
+}
+
+/* .showbtn.animate:after {
+  content: "\02795"; 
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+} */
+
+/* .show {
+  display: block;
+} */
+/* .showbtn:after {
+  content: "\2796"; 
+} */
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+/* .showbtn:hover {
+  color: var(--CadBlack);
+}
+.acordpan.active {
+  display: block;
+} */
